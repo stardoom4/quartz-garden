@@ -13,3 +13,5 @@
 [[nebulae]], 
 [[Active Nucleus Galaxy]], 
 [[T∆S]], 
+[[Blue shift]], 
+[[Red and violet]]
