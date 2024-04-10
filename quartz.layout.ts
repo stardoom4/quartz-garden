@@ -27,8 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
-    Component.RecentNotes({ title: "Recent writing" })
+    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
@@ -49,7 +48,3 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
-
-Component.Explorer({
-  filterFn: undefined, // apply no filter function, every file and folder will visible
-})
