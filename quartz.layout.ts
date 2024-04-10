@@ -56,7 +56,6 @@ Component.Explorer({
   useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
   // Sort order: folders first, then files. Sort folders and files alphabetically
   sortFn: (a, b) => {
-    ... // default implementation shown later
   },
   filterFn: filterFn: (node) => node.name !== "tags", // filters out 'tags' folder
   mapFn: undefined,
